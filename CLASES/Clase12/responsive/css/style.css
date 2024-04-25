@@ -1,0 +1,71 @@
+
+nav ul li {
+    display: inline-block;
+    padding: 10px;
+}
+
+nav ul li a{
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+}
+
+section {
+width: 80%;
+/* border: 1px solid red; */
+margin: 10px auto;
+}
+
+section article {
+    width: 100%;
+}
+
+section article img {
+    width: 100%;
+}
+
+@media (min-width:426px){
+    body {
+        background-color: chartreuse;
+    }
+    section article {
+        width: 40%;
+        margin-left: 5%;
+        margin-right: 5%;
+        float: left;
+    }
+    section{
+        overflow: hidden;
+    }
+
+    nav {
+        text-align: center;
+    }
+}
+
+@media (min-width:769px) {
+    body {
+        background-color: aquamarine;
+    }
+
+    section article {
+        width: 22%;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+
+    nav {
+        text-align: center;
+    }
+
+    img {
+        border-radius: 10%;
+    }
+
+
+
+
+}
+
+
+

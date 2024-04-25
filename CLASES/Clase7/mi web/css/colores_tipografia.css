@@ -1,0 +1,38 @@
+/* body{
+    background-color: aqua;
+}
+ */
+
+
+ span{
+    background-image: url("../img/1.jpg");
+    background-size:cover;  
+ }
+p{
+/*     color: red; */
+/*     color: #b78a9f87 ; */
+    background-color: #fff;
+}
+
+div{
+    background-image: url("../img/1.jpg");
+    background-size:cover;
+    width: 400px;
+    height: 200px;
+    border: dashed 2px red;
+}
+
+.tipografia{
+    font-size: 2em;
+    font-style: italic;
+/*     font-style: oblique; */
+    font-weight: bold;
+
+}
+.tipografiaDos{
+    font-size: 2em;
+    font-style: oblique;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+ 
+}
+

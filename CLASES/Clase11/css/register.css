@@ -1,0 +1,54 @@
+/* FORMULARIO */
+.form {
+    width: 350px;
+}
+
+h1{
+    text-align: center;
+    margin: 30px 0;
+}
+h3{
+    margin: 15px 0;
+}
+
+.group-form,.group-form2{
+    margin-top: 20px;
+}
+
+.group-form label ,.group-form input,.group-form span{
+    display: block;
+}
+
+.group-form input {
+    width: 100%;
+    height: 30px;
+    margin: 10px 0;
+}
+
+span {
+    color: red;
+    font-size: 14px;
+}
+
+select{
+    margin-top: 10px;
+}
+
+.group2-form label {
+    margin-right: 2px;
+}
+
+textarea {
+    resize: none
+}
+
+button {
+    border: none;
+    border-radius: 8px;
+    background-color:  #3483fa;
+    color: white;
+    font-weight: 600;
+    padding: 8px;
+    width: 120px;
+    margin: 10px;
+}

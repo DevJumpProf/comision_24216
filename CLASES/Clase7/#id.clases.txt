@@ -1,0 +1,27 @@
+Diferencias entre ID y Class.
+La principal diferencia entre ID y Class es que los ID son únicos en una página, mientras que las clases pueden aplicarse a múltiples elementos. Esto significa que, si se desea aplicar un estilo específico a un solo elemento en la página, se debe usar un ID. Si se desea aplicar un estilo a varios elementos que tienen algo en común, se debe usar una clase.
+
+Otra diferencia es que los ID tienen prioridad sobre las clases. Si se aplica un estilo a un elemento utilizando tanto un ID como una clase, el estilo del ID prevalecerá.
+
+Ejemplos de cuándo usar ID y Class.
+Algunos ejemplos de cuándo usar ID incluyen:
+
+1. Identificar un elemento específico en la página, como un encabezado principal.
+2. Enlazar a una sección específica de la página utilizando un ancla.
+3. Aplicar un estilo específico a un formulario o elemento de entrada.
+
+Algunos ejemplos de cuándo usar una clase incluyen:
+
+1. Aplicar un estilo específico a un grupo de elementos que tienen algo en común, como un grupo de botones de redes sociales.
+2. Estilizar un grupo de elementos de acuerdo con su posición en la página, como la barra lateral o el pie de página.
+3. Estilizar elementos que comparten características similares, como títulos de secciones.
+
+Consejos para elegir entre ID y Class
+Algunos consejos para elegir entre ID y Class incluyen:
+
+Use ID solo cuando sea necesario para identificar un elemento específico en la página.
+Use clases cuando necesite aplicar un estilo a varios elementos que tienen algo en común.
+Evite usar ID y clases con nombres que sean demasiado largos o difíciles de recordar.
+Evite usar ID y clase juntos en el mismo elemento HTML, ya que puede causar conflictos de estilo.
+Utilice ID y clases de manera consistente en toda la página para facilitar la edición y el mantenimiento.
+En conclusión, tanto los identificadores como las clases son herramientas importantes para aplicar estilo a elementos HTML en una página web. La elección entre usar ID o Class depende de la necesidad específica de estilo para cada elemento. Es importante conocer las diferencias entre ambas opciones y aplicarlas de manera adecuada para obtener una página web bien diseñada y fácil de mantener.

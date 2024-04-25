@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/register.css">
+    <link rel="shortcut icon" href="../img/logo.ico" type="image/x-icon" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main class="master">
+      <header>
+        <a href="../index.html">
+          <img src="../img/logo.jpg" alt="logo codo a codo" />
+        </a>
+        <nav>
+          <ul id="menu">
+            <li>
+              <a
+                href="https://listado.mercadolibre.com.ar/smartphones#D[A:smartphones]"
+                >Smartphones</a
+              >
+            </li>
+            <li><a href="">Tablets</a></li>
+            <li><a hre="">Computadoras</a></li>
+          </ul>
+          <ul id="ingreso">
+            <li><a href="">LOGIN</a></li>
+            <li><a href="../pages/register.html">REGISTER</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section class="form">
+        <h1>REGISTRARSE</h1>
+        <form action="">
+          <div class="group-form">
+            <label for="nombre">Nombre</label>
+            <input
+              type="text"
+              name="nombre"
+              id="nombre"
+              placeholder="Ingresá tu nombre"
+              required
+            />
+            <span>Obligatorio.</span>
+          </div>
+
+          <div class="group-form">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Ingresá tu email"
+              required
+            />
+            <span>Obligatorio</span>
+          </div>
+
+          <div class="group-form">
+            <label for="password">password</label>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Ingresá tu password"
+              required
+            />
+            <span>Obligatorio</span>
+          </div>
+
+          <div class="group2-form">
+            <h3>Lenguajes</h3>
+            <select name="" id="">
+              <option value="">Javascript</option>
+              <option value="">Java</option>
+              <option value="">Python</option>
+            </select>
+          </div>
+          <div class="group2-form">
+            <h3>Turnos</h3>
+            <input type="radio" name="" id="" />
+            <label for="">Turno Mañana</label>
+            <input type="radio" name="" id="" />
+            <label for="">Turno Tarde</label>
+            <input type="radio" name="" id="" />
+            <label for="">Turno Noche</label>
+          </div>
+
+          <div class="group2-form">
+            <h3>Hobbies</h3>
+            <input type="checkbox" name="" id="" />
+            <label for="hobbie">Guitarra</label>
+            <input type="checkbox" name="" id="" />
+            <label for="hobbie">Futbol</label>
+            <input type="checkbox" name="" id="" />
+            <label for="hobbie">Tenis</label>
+            <input type="checkbox" name="" id="" />
+            <label for="hobbie">Programación</label>
+          </div>
+
+          <div class="group2-form">
+            <h3>Dejanos tu comentario</h3>
+            <textarea name="" id="" cols="30" rows="8"></textarea>
+          </div>
+
+          <div class="group2-form">
+            <input type="checkbox" name="" id="" />
+            <label for="">Acepto Terminos y condiciones</label>
+          </div>
+          <div class="group2-form">
+            <button type="submit">Registrarme</button>
+            <a href="../index.html">
+              <button type="button">Cancelar</button>
+            </a>
+          </div>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+* Refactorizar TODO EL PROYECTO
+
+* Etiqueta <a></a> en menu <li>Smartphones</li>
+                           <li>Tablets</li>
+                          <li>Computadoras</li>
+                          insertar direccion de productos en un ecommerce
+
+
+* ingresar los datos de los 6 productos
+* en la etiqueta a = "ver mas" incluir la url del producto
+
+* personalizar imagenes y anuncios (incluido textos y atributo alt)
+
+* agregar enlaces en aside
+
+*AGREGAR FOOTER
+
+*investigar, css de el h1 en mercadolibre
+*Ingresar un h1 en nuestro codigo y ocultarlo
+
+* AGREGAR FUENTES EXTERNAS
+
+* MARGENES EN UNA SOLA LINEA
+
+
+
+
+
+

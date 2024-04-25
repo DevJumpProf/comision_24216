@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+    margin:0 auto
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+li{
+    list-style:none;
+    display: inline;
+    margin: 10px 15px;
+}
+
+
+main {
+    max-width: 1140px;
+    margin:0 auto;
+    padding: 0;
+    overflow: hidden;
+}
+
+/* CABECERA - MENU */
+
+header {
+    width: 1140px;
+    background-color:#ffe600 ;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+header img {
+    float : left;
+    width: 100px
+  
+}
+
+nav{
+    padding-top: 10px;
+}
+
+nav #menu {
+float: left;
+}
+
+nav #ingreso{
+    float: right;
+}
+
+/* PRODUCTOS */
+.productos{
+    width: 800px;
+    background-color:#ffe600 ;
+    overflow: hidden;
+    float: left;
+}
+
+.producto{
+    width: 380px;
+    margin:10px 10px 20px 10px;
+    float:left;
+/* border: 1px solid red; */
+}
+
+.producto img{
+    width: 100%;
+}
+.producto h2{
+    margin: 10px 0;
+}
+
+.producto a{
+    background-color: #3483fa;
+    padding: 10px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+aside{
+    width: 320px;
+    float: right;
+}
+aside h2{
+    background-color: #ffe600;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #3483fa ;
+}
+
+aside article {
+    background-color: #ffe600;
+    border: 2px solid #3483fa ;
+    overflow: hidden;
+    padding: 10px;
+    border-bottom: 0;
+}
+
+aside article img {
+    float: left;
+}
+
+aside article p{
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left;
+}
+
+aside .anuncios {
+    background-color: #ffe600;
+    text-align: center;
+    padding: 10px;
+}
+
+aside .anuncios img:last-child {
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+

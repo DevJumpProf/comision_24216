@@ -1,0 +1,40 @@
+
+.caja1{
+width: 100px;
+height: 200px;
+border : solid 2px red;
+background-color: blue;
+}
+
+.caja2{
+    margin-top: 80px;
+    width: 100px;
+    height: 200px;
+    border-top : dashed 2px blue;
+    background-color: yellow;
+    }
+
+    h1{
+        
+        border : solid 3px black;
+        padding-left: 50px;
+    }
+
+    .caja3{
+        width: 50px;
+        height: 100px;
+        border : solid 1px black;
+    }
+
+   .caja4{
+        width:800px;
+        height:800px;
+        background:red;
+        max-width:500px;
+        }
+        
+
+    p{
+        border : solid 3px black;
+    }
+
