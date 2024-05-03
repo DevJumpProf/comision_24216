@@ -35,7 +35,7 @@ let num2= Number( prompt ("Decime otro numero")) */
 /* 
 console.log("10"*"10");
  */
-
+/* 
 let equipo = "Argentina"
 
 console.log(equipo);
@@ -45,7 +45,7 @@ console.log("Hola Mundo");
 console.log(typeof equipo);
 console.log(typeof numero);
 
-console.log(Number.isInteger(numero));
+console.log(Number.isInteger(numero)); */
 
 
 
