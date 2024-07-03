@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POSTEOS</title>
+</head>
+<body>
+    <h1>POSTEOS</h1>
+<!--     Formulario para crear un nuevo posteo -->
+     <form  id="form-crear-posteos">
+<label for="nuevo-titulo">Titulo:</label>
+<input type="text" name="titulo" id="nuevo-titulo" required>
+<br>
+<label for="nuevo-contenido">Contenido:</label>
+<textarea name="contenido" id="nuevo-contenido" required></textarea>
+<br>
+<button type="submit">CREAR POSTEO</button>
+     </form>
+
+<!--      tabla para mostrar todos los posteos -->
+
+<table>
+    <thead>
+        <tr>
+            <th>Titulo</th>
+            <th>Contenido</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody id="body-tabla-posteos">
+<!--         aca es donde se agregan los posteos -->
+    </tbody>
+</table>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>

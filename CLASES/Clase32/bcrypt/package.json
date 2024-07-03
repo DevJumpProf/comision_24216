@@ -1,0 +1,17 @@
+{
+  
+  "name": "bcrypt",
+  "description": "¿Qué es Bcrypt?",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3"
+  }
+}
