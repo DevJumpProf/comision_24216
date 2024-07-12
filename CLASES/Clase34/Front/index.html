@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario Registro</title>
+  </head>
+  <body>
+    <!-- formulario principal  -->
+    <h2>Formulario de Registro</h2>
+
+    <form id="formRegistro">
+      <div>
+        <label for="nombreUser">Nombre User:</label>
+        <input type="text" name="nombreUser" id="nombreUser" required />
+      </div>
+
+      <div>
+        <label for="email">Correo Electronico:</label>
+        <input type="email" name="email" id="email" required />
+      </div>
+
+      <div>
+        <label for="password">Contraseña:</label>
+        <input type="password" name="password" id="password" required />
+      </div>
+
+      <button type="submit">Registrarse</button>
+    </form>
+
+<!--     Caja donde se van a mostrar los errores -->
+     <div id="mensajesValidacion">
+
+     </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
